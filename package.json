@@ -1,0 +1,34 @@
+{
+  "name": "heroku-nodejs-static-template",
+  "version": "1.0.0",
+  "description": "Nodejs template for running static sites on Heroku. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshaw/heroku-nodejs-static-template.git"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "static",
+    "template",
+    "webdev",
+    "npm"
+  ],
+  "author": "Jordan Shaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jshaw/heroku-nodejs-static-template/issues"
+  },
+  "homepage": "https://github.com/jshaw/heroku-nodejs-static-template#readme",
+  "dependencies": {
+    "html5-boilerplate": "^6.0.1",
+    "ncp": "^2.0.0",
+    "node-static": "^0.7.10"
+  }
+}
