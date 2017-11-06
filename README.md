@@ -7,7 +7,7 @@ Clone project to your working directory `git clone git@github.com:jshaw/heroku-n
 
 `cd heroku-nodejs-static-template`
 `npm install`: Install the dependencies
-`npm build`: Copy html5-boilerplate files into directory
+`npm run-script build`: Copy html5-boilerplate files into directory
 
 Create new Heroku app.
 
